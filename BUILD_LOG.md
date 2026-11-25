@@ -92,6 +92,18 @@ Akun: @epan-pai | Wallet payout: `6VbyMydGEMzmZiH5YPxJWj7HNeJNg1ZnYBJ8yUcqv4zG`
   authored lines); thinking_in_window LOLOS; thinking_turns 30;
   transcripts_run_record LOLOS.
 
+## 2026-11-25 ~14:58 WIB — Parent seal: usage rows mendarat, bundle v2
+- Query muse.db (builder adf44d31 + parent 0b7ad868): 2 rows mendarat —
+  builder: message d81644e3, created_at 1795593384, input 4249994,
+  output 22162; parent: message 7c89bdd9, created_at 1795592919,
+  input 1145266, output 9031; model ipnext/avocado-5.17-v2 keduanya.
+  Ditulis apa adanya ke /home/hatch/.makefun/muse-usage-fortune-cookies.jsonl
+  (2 baris, tidak di-trim).
+- Re-bundle v2 dari dir kit, flag sama seperti v1 + --session file sesi
+  builder (~/agents/agent-adf44d31-.../sessions/adf44d31-....jsonl, 149
+  baris) + --parent-session file sesi parent (106 baris) + --muse-usage
+  file di atas, out <repo>/transcripts.tar.gz:
+
 ## Status: BERHENTI — bundle v1 tanpa usage rows, perlu re-bundle
 - Belum: submit.
 - Yang dibutuhkan: usage rows sesi builder ini mendarat di muse.db
