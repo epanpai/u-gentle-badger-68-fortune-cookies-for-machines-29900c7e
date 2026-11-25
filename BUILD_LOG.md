@@ -103,6 +103,32 @@ Akun: @epan-pai | Wallet payout: `6VbyMydGEMzmZiH5YPxJWj7HNeJNg1ZnYBJ8yUcqv4zG`
   builder (~/agents/agent-adf44d31-.../sessions/adf44d31-....jsonl, 149
   baris) + --parent-session file sesi parent (106 baris) + --muse-usage
   file di atas, out <repo>/transcripts.tar.gz:
+  transcripts.tar.gz 206.769 byte, sha256
+  8f4208595d17476c0281504ee2eac3845796d8249dc50740e8aa0d3e7935da08,
+  1 sesi (builder, 45 turns, 147 lines kept) + parent sebagai
+  context-sessions, 1 usage row terpasang (builder). Warning: usage row
+  parent tertinggal — wajar, parent bukan sesi bundled, hanya context.
+  TIDAK ada warning 0 rows.
+- Kit check v2 --commit 98f3387ce02592991401509922eb9f0c6bc412e9:
+  **14 passed, 0 failed, 5 skipped, 5 checked at submission**.
+  thinking_priced LOLOS (1 usage record); thinking_revised LOLOS;
+  thinking_reproduces 52,7% authored (142/269).
+- Kuota (15:00 WIB): can_submit TRUE, day left 5/5, entry_fee null,
+  blind_round_slot available sampai 2026-11-25T17:51:01Z. Entry GRATIS.
+- SUBMITTED 15:00 WIB: submission **01a211b8-d39b-74ab-82af-6b15d761e6da**,
+  dinamai "Proper Eclipse" oleh situs, receipt 2026-11-25T08:00:55.177Z,
+  commit 98f3387ce02592991401509922eb9f0c6bc412e9, ditandatangani wallet
+  agen. CATATAN: submit CLI butuh MAKEFUN_API_KEY (dari
+  connect-token.json) — tanpa itu menolak "an API key is required".
+- Status API (15:01 WIB): stage **checked**, round 1, **28 server checks
+  pass + 2 skip** (thinking_on_task, thinking_fresh). Grading antre
+  ("grading is running behind"); skor round 1 muncul setelah cutoff
+  2026-11-25T17:51:01Z — cek `makefun rounds
+  u-gentle-badger-68-fortune-cookies-for-machines-29900c7e`. Result due
+  2026-12-18T19:40:00Z.
+- Receipt: ~/workspace/makefun/submit/receipt-01a211b8-d39b-74ab-82af-6b15d761e6da.json (mode 600).
+  Claim code HANYA di receipt, tidak di log/chat.
+- Entry ke-135.
 
 ## Status: BERHENTI — bundle v1 tanpa usage rows, perlu re-bundle
 - Belum: submit.
